@@ -1,0 +1,536 @@
+@font-face{
+      font-family: NFChimaera;
+      src: url(fonts/NFChimaeraSansBeta-Regular.otf);
+      font-style: normal;
+      font-weight: 100;
+  }  
+  @font-face{
+      font-family: Salloum;
+      src: url(fonts/Salloum\ Golden\ Sans.ttf);
+      font-style: normal;
+      font-weight: 100;
+  } 
+  @font-face{
+      font-family: Ellard;
+      src: url(fonts/Ellard\ Jagger\ Light.ttf);
+      font-style: normal;
+      font-weight: 100;
+  } 
+
+  p{
+        font-family: "Ellard";
+        font-weight: bold;
+        /* font-size: 100px; */
+  }
+
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+      background: url(hero3.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      background-attachment: fixed;
+      overflow-x: hidden;
+
+}
+
+
+header {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      /* background: url(new.jpg) no-repeat 50% 50%; */
+      background: url(newmainn3.jpg) no-repeat 50% 50%;
+      background-size: cover; 
+}
+
+.cool-link a {
+      color: #ffffff;
+      text-decoration: none;
+      letter-spacing: 3px;
+  }
+
+.cool-link a:hover 
+  {
+       color:rgb(255, 255, 255); 
+       text-decoration:none; 
+       cursor:pointer;  
+  }
+
+.cool-link a:visited
+  {
+       color:rgb(255, 255, 255); 
+       text-decoration:none; 
+       cursor:pointer;  
+  }
+
+.mainpic-items-wrapper {
+      position: absolute;
+      color: rgb(234, 239, 244);
+      height: 700px;
+      /* top: 100px; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 100px;
+      font-size: 130px;
+      text-align: center;
+      
+      /* padding-right: 100px; */
+      /* font-size: 4.5em; */
+
+}
+
+.mainpic-items2-wrapper {
+      display: none;
+      
+      
+}
+/* h2{
+      font-family: "Monument Extended", sans-serif;
+      font-size: 70%;
+}
+h3{
+      font-family: "Monument Extended", sans-serif;
+      font-size: 100%;
+} */
+
+
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      /* font-size: 20px; */
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: -50px -55px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+      height: 200px;
+      width: 450px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+      z-index: 7;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: rgb(0, 0, 38);
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+/**/
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: rgb(0, 0, 38);;
+
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: rgb(2, 2, 2);
+      display: none;
+}
+
+.menu .nbhome{
+      text-decoration: none;
+}
+.menu .nbCommercial{
+      text-decoration: none;
+}
+.menu .nbMarine{
+      text-decoration: none
+}
+.menu .nbSupport{
+      text-decoration: none
+}
+
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+            color: rgb(255, 255, 255);
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: rgb(0, 0, 38);
+      }
+
+      nav.black ul {
+            background: rgb(0, 0, 38);;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+            color: #fff;
+            
+      }
+      .one{
+            padding-top: 10%;
+      }
+      
+      .two{
+            padding-top: 115%;
+      }
+
+      .four{
+            padding-top: 50%;
+      }
+
+      header{
+            width: 162vw;
+            height: 165vh;
+      }
+      .mainpic-items-wrapper{
+            padding-top: 60vh;
+      }
+
+      .ieigth, .ithree, .isix{
+            display: none;
+      }
+
+      .opppa{
+            margin-top: 9%;
+            left: 110%;
+            
+      }
+      .text-2{
+            top: 250%;
+            /* padding-left: 20%; */
+      }
+
+      .text-3{
+            padding-top: 40%;
+            padding-left: 50%;
+      }
+
+}
+
+@media(max-width: 475px) {
+      body{
+            overflow-x: hidden;
+            /* font-size: 3vw; */
+      }
+      header{
+            width: 262vw;
+            height: 265vh;
+      }
+
+      .logo {
+            position: fixed;
+            top: 90px;
+            margin-top: 16px;
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+      }
+
+      nav ul {
+            max-height: 45px;
+            background: rgb(0, 0, 38);
+            
+      }
+
+      nav.black ul {
+            background: rgb(0, 0, 38);;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding-top: 90px;
+            padding: 34px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            padding-top: 90px;
+            padding-right: 30px;
+            display: block;
+            color: #fff;
+            line-height: 150px;
+            
+      }
+      .menu{
+            font-size: 300px;
+      }
+
+      .nbhome, .nbMarine, .nbCommercial, .nbSupport{
+            font-size: 70px;
+      }
+
+
+      .mainpic-items-wrapper{
+            padding-top: 80%;
+            right: 3%;
+            display: none;
+            /* left: -19%; */
+            
+      }
+      .mainpic-items2-wrapper{
+            display: block;
+            color: #fff;
+            padding-top: 80%;
+            text-align: center;
+            font-size: 45vw;
+            /* display: inline; */
+            
+      }
+      /* p{
+            font-size: 130px;
+      } */
+
+      
+      .img{
+            display: none;
+      }
+
+      .opppa{
+            position: absolute;
+            font-size: 70vw;
+            text-align: center;
+            padding-right: 300px;
+      }
+      .text-3{
+            position: absolute;
+            top: 2700px;
+            font-size: 300px;
+      }
+
+
+
+}
+
+.whitespace {
+      height: 1px;
+}
+
+h1 {
+      font-family: "Monument Extended";
+      color: rgb(250, 250, 250);
+      font-size: 30px;
+}
+
+
+img {
+      
+      position: auto;
+      width:100%;
+      height:auto; 
+      
+}  
+
+.trial {
+      width:600px;
+      height:auto;
+      padding-left: 30px;
+
+}
+
+.trial2 {
+      width:600px;
+      height:auto;
+      padding-left: 50%;
+
+}
+
+
+.txt {
+      position: relative;
+}
+
+/* .one {
+      margin-top: 100px;
+} */
+
+.text-0 {
+      top: 100px;
+      position: absolute;
+      white-space: nowrap;
+      
+      
+}
+.text-1 {
+      top: 100px;
+      padding-left: 550px;
+      position: absolute;
+
+}
+
+.text-2 {
+
+      position: absolute;
+      font-family: Ellard;
+      font-weight: bold;      
+      z-index: 3;
+      font-size: 60px;
+      padding-left: 5%;
+      margin-top: 40%;
+      display: inline-block;
+      
+
+
+}
+.text-3 {
+      z-index: 1;
+      margin-top: -10%;
+      left: 60%;
+      position: absolute;
+      font-family: Ellard;
+      font-weight: bold;
+      color: white;
+      font-size: 60px;
+      display: inline-block;
+
+
+}
+
+.text-4 {
+      z-index: 1;
+      top: 300px;
+      left: 300px;
+      position: absolute;
+
+}
+
+.three {
+
+      position: absolute;
+      /* background-attachment: static; */
+      z-index: 2;
+      top: 10px;
+      width: 20em;
+      height: auto;
+      /* height:200px; */
+
+
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
+}
+
+.four {
+      margin-top: -200px;
+}
+.one {
+      margin-top: -50px;
+}
+.two{
+      margin-top: -680px;
+      width: 100%;
+      height: auto;
+      left: 500px;
+}
+.eigth{
+      z-index: 2;
+      top: -300px;
+      /* width: 20em;
+      height: auto; */
+      /* height:200px; */
+      
+
+
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
+}
+
+
+
+
+
+.six {
+      top: -620px;
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
+}
+.opppa{
+      /* top: 10px; */
+      right: 30%;
+      color: rgb(250, 250, 250);
+      font-size: 60px;
+      font-family: Ellard;
+      font-weight: bold;
+      z-index: 3;
+      display: inline-block;
+      position: absolute;
+} 
+
+.cool-link::after{
+      /* top: 100px; */
+      content: '';
+      display: block;
+      width: 50px;
+      height: 1px;
+      background: rgb(140, 136, 136);
+      
+
+}
+
+.cool-link:hover::after {
+      /* top: 100px; */
+      width: 125px;
+      transition: width .3s;
+      background: rgb(255, 255, 255);
+}
+
+
+
+

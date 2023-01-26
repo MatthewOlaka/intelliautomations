@@ -1,0 +1,558 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: #09092d;
+    position: relative;
+}
+
+/* html{
+    position: relative;
+    overflow-x: hidden;
+} */
+h1{
+    /* color: white; */
+    font-family: 'xenitt';
+    font-weight: 600;
+
+}
+.buffer{
+    margin-top: 3000px;
+  }
+
+section {
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+}
+
+.mainpic{
+    width: 100vw;
+    height: 100vh;
+    /* position: relative; */
+}
+
+
+
+.mainpic_wrapper{
+    position: absolute;
+
+    margin-top: -.5%;
+    margin-left: -.5%;
+
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.top_img{
+    position: absolute;
+    z-index: 2;
+    
+}
+
+.bottom_img{
+    z-index: 1;
+    position: absolute;
+}
+
+.bottom_bottom_img{
+    z-index: -1;
+    position: absolute;
+}
+
+.logo {
+    font-family: 'xenitt';
+    font-size: 15px;
+    color: rgb(169, 169, 169);
+    text-align: center;
+    line-height: 12px;
+    margin-top: 5px;
+    position: absolute;
+    right: 50%;
+    z-index: 3;
+  }
+  
+  .logo span{
+    color: rgb(24, 77, 99);
+    text-align: center;
+  
+  }
+
+.soundbar{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    width: 9.0cm;
+    height: 0.6cm;
+    z-index: 3;
+}
+.bigspeaker1{
+    position: absolute;
+    top: 41%;
+    right: 64%;
+    width: 2.6cm;
+    height: 1.4cm;
+    z-index: 5;
+}
+
+.bigspeaker2{
+    position: absolute;
+    top: 41%;
+    right: 36.5%;
+    z-index: 3;
+}
+
+.subwoofer{
+    position: absolute;
+    top: 51%;
+    right: 50.4%;
+    width: 2.5cm;
+    height: 2.4cm;
+    z-index: 4;
+
+}
+
+.midspeaker{
+    position: absolute;
+    top: 62%;
+    right: 43%;
+    z-index: 3;
+    width: 1.3cm;
+    height: 1.9cm;
+
+}
+
+.smallspeaker1{
+    position: absolute;
+    top: 60.5%;
+    right: 85%;
+    z-index: 3;
+    width: 1.4cm;
+    height: 1.9cm;
+}
+
+.smallspeaker2{
+    position: absolute;
+    top: 57.5%;
+    right: 19.5%;
+    z-index: 3;
+    width: 1.4cm;
+    height: 1.9cm;
+
+}
+
+.soundbar-text{
+    position: absolute;
+    font-family: "xenitt";
+    /* top: 16%;
+    left: 30%; */
+    z-index: 8;
+}
+
+.pic1h1{
+
+    position: absolute;
+
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 5px black;
+    margin-top: -90%;
+    margin-left: 76%;
+    white-space: nowrap;
+
+}
+
+.title-text{
+    position: absolute;
+
+    font-size: 100px;
+    color: rgb(240, 240, 240);
+    text-shadow: 7px 7px 2px black;
+    
+    -webkit-text-stroke: 0.2px black;
+    white-space: nowrap;
+    z-index: 6;
+    margin-top: -48%;
+    margin-left: 13%;
+
+}
+
+.pic1h2{
+    margin-top: -60%;
+    margin-left: 69%;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+
+    
+}
+
+.bigspeaker-text{
+    position: absolute;
+    font-family: "xenitt";
+    z-index: 8;
+}
+
+.pic2h1{
+
+    position: absolute;
+
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 5px black;
+    margin-top: -100%;
+    margin-left: 145%;
+    white-space: nowrap;
+}
+
+.pic2h2{
+    margin-top: -69%;
+    margin-left: 135%;
+    font-size: 50px;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+}
+
+
+.subwoofer-text{
+    position: absolute;
+    font-family: "xenitt";
+    z-index: 8;
+}
+
+.pic3h1{
+
+    position: absolute;
+
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 5px black;
+    margin-top: -100%;
+    margin-left: 25%;
+    white-space: nowrap;
+}
+
+.pic3h2{
+    margin-top: -69%;
+    margin-left: 17%;
+    font-size: 50px;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+}
+
+.midspeaker-text{
+    position: absolute;
+    font-family: "xenitt";
+    z-index: 8;
+}
+
+.pic4h1{
+
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 5px black;
+    margin-top: -90%;
+    margin-left: 125%;
+    white-space: nowrap;
+}
+
+.pic4h2{
+    margin-top: -65%;
+    margin-left: 117%;
+    font-size: 50px;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+}
+
+.smallspeaker-text{
+    position: absolute;
+    font-family: "xenitt";
+    z-index: 8;
+}
+
+.pic5h1{
+
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 5px black;
+    margin-top: -90%;
+    margin-left: 113%;
+    white-space: nowrap;
+}
+.pic5-wrapper{
+    color: white;
+}
+.pic6-wrapper{
+    color: white;
+}
+
+.pic5h2{
+    margin-top: -65%;
+    margin-left: 110%;
+    font-size: 50px;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+}
+
+.text-wrapper{
+    margin-top: 70%;
+    font-size: 65px;
+    color: white;
+}
+
+.text_stag1{
+    text-align: center;
+    margin-right: 15%;
+}
+.text_stag2{
+    text-align: center;
+    margin-right: 15%;
+    margin-top: -7%;
+}
+.text_rotation1{
+    text-align: center;
+    margin-right: -38%;
+    margin-top: -15.5%;
+}
+.text_rotation2{
+    text-align: center;
+    margin-right: -50%;
+    margin-top: -16%;
+}
+
+.text_rotation3{
+    text-align: center;
+    margin-right: -45%;
+    margin-top: -16%;
+}
+.text_rotation4{
+    text-align: center;
+    margin-right: -40%;
+    margin-top: -15.5%;
+}
+.text_rotation5{
+    text-align: center;
+    margin-right: -38%;
+    margin-top: -15.5%;
+    color: rgb(24, 77, 99);
+}
+
+/* .iphone-image-wrapper{
+    margin-top: 20%;
+} */
+
+.iphonelast{
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+}
+.iphoneequilizer{
+    position: absolute;
+    right: 100%;
+    z-index: 2;
+}
+
+.iphonekahush{
+    position: absolute;
+    z-index: 3;
+    left: 100%;
+}
+.iphonebedroom{
+    position: absolute;
+    z-index: -2;
+    right: 0%;
+}
+
+
+.marshall1{
+    position: absolute;
+    margin-top: -59.5%;
+    right: 73%;
+    z-index: 10;
+    width: 2.5cm;
+    height: 2.4cm;
+}
+.marshall2{
+    position: absolute;
+    margin-top: -60%;
+    right: 24%;
+    z-index: 5;
+    width: 2.5cm;
+    height: 2.4cm;
+}
+
+.iphone1-text{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: 'xenitt';
+    font-weight: 600;
+    margin-top: 14%;
+    text-align: center;
+}
+
+.iphone2-text{
+    position: absolute;
+    color: white;
+    font-size: 58px;
+    font-family: 'xenitt';
+    font-weight: 600;
+    margin-top: 14%;
+    margin-left: 70%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.iphone3-text{
+    position: absolute;
+    color: white;
+    font-size: 55px;
+    font-family: 'xenitt';
+    font-weight: 600;
+    margin-top: -80%;
+    margin-left: 37.5%;
+    text-align: center;
+    line-height: 55px;
+    z-index: -4;
+}
+
+.marshall-text{
+    position: absolute;
+    font-family: "xenitt";
+    z-index: 8;
+}
+
+.pic6h1{
+
+    position: absolute;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 5px black;
+    margin-top: -190%;
+    margin-left: 158%;
+    white-space: nowrap;
+}
+
+.pic6h2{
+    margin-top: -160%;
+    margin-left: 150%;
+    font-size: 50px;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    z-index: 12;
+}
+
+.tower-l{
+    position: absolute;
+    margin-top: 110%;
+    height: 500px;
+    width: 150px;
+    right: 45%;
+}
+.tower-r{
+    position: absolute;
+    margin-top: 110%;
+    height: 500px;
+    width: 150px;
+    right: 5%;
+}
+.tower-mid{
+    position: absolute;
+    margin-top: 110%;
+    height: 500px;
+    width: 330px;
+    right: 19%;
+}
+.budget{
+    position: absolute;
+    margin-top: 120%;
+    right: 60%;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.pic6-wrapper{
+    position: absolute;
+    margin-top: 130%; 
+}
+
+.hometheatre{
+    width: 70vw;
+    height: 90vh;
+}
+
+.hometheatre-text{
+    position: absolute;
+    margin-top: 20%;
+    right: -40%;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* .colorchange-wrapper{
+    margin-top: 150%;
+} */
+
+.toproom{
+    margin-top: 150%;
+    position: absolute;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.bottomroom{
+    margin-top: 150%;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+/*     position: relative;
+ */}
+
+ .top-text{
+     position: absolute;
+     margin-top: -43.5%;
+     right: 3%;
+     text-align: center;
+     z-index: 3;
+     /* color: black;
+     text-shadow: 1px 1.5px 1px white; */
+     color: black;
+     text-shadow: 3px 5px 3px white;
+     font-size: 80px;
+ }
+ .bottom-text{
+     position: absolute;
+     margin-top: -43.5%;
+     right: 3%;
+     text-align: center;
+     z-index: 1;
+    
+     color: white;
+     text-shadow: 6px 5px 3px black;
+
+     font-size: 80px;
+
+ }
+
+
+@font-face {
+    font-family: 'Xenitt';
+    src: url('../fonts/SigmaCondensedOblique-Bold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }

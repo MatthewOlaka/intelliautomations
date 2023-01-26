@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Prototype1</title>
+      <link rel="stylesheet" href="styleland.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+      
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+                  <nav>
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-5x"></i>
+                        </div>
+
+
+                        <img src="newlogo4.png" class="logo" alt="">
+
+                        <!-- <div class="logo">
+                              LOGO
+                        </div>
+ -->
+                        <div class="menu">
+                              <ul>
+                                    <li><a class="nbhome" href="index2.html">Home<sup>+</sup></a></li>
+                                    <li><a class="nbMarine" href="#">Marine<sup>+</sup></a></li>
+                                    <li><a class="nbCommercial" href="index3.html">Commercial<sup>+</sup></a></li>
+                                    <li><a class="nbSupport" href="index9.html">Support</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+                  <div class="mainpic-content">
+                        <div class="mainpic-items-wrapper text-0">
+
+                              <p>Build a Smarter Tomorrow </p>
+
+                        </div>
+                        <div class="mainpic-items2-wrapper">
+                              
+                              <p>Build a Smarter Tomorrow </p>
+                             
+                        </div>
+                  </div>
+
+            
+            </header>
+
+            <div class="content">
+                  <!-- <p>Nothing    </p> -->
+                  
+            
+            </div>
+
+            <div class="container">
+                  <div class="container-fluid">
+                        <div class="row">
+                              <div class="col-lg-12 img three">
+                                    <!-- <img src="left1.png" class="ithree" alt=""> -->
+                                    <img src="welcome5.png" class="ithree" alt="">
+
+                              </div>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-lg-7 img one">
+                              <img src="AdobeStock_227706303nn.jpeg" class="ione" alt="">
+                        </div>
+      
+                       <!--  <div href="#" class="col-lg-3 txt text-1 cool-link">
+                              <h1>HOME<sup>+</sup></h1>
+                        </div> -->
+                        <!-- <div href="#" class="cool-link"> -->
+                              <div class="cool-link opppa">
+                                    <a href="index2.html" href="html/home.html">HOME<sup>+</sup></a>
+                              </div>
+                       <!--  </div> -->
+                              <div class="cool-link text-2">
+                                    <a href="index3.html">COMMERCIAL<sup>+</sup> </a>
+                              </div>
+                  </div>
+                  <div class="container-fluid">
+                        <div class="row">
+                              <div class="col-lg-12 img eigth">
+                                    <!-- <img src="left1.png" class="ithree" alt="">  -->
+                                    <img src="newto.png" class="ieigth" alt="">
+
+                              </div>
+                              
+                              
+                        </div>
+                  </div>
+      
+                  <div class="row">
+                        
+                        <div class="col-lg-7 img two">
+                              <img src="12(1).jpg" class="itwo" alt="">
+                        </div>
+                        
+                  </div>
+      
+      
+                  <div class="row">
+                        <div class="col-lg-7 img four">
+                              <img src="boat.jpg" class="ifour" alt="">
+                        </div>
+      
+                        <div class="txt text-3 cool-link">
+                              <a>MARINE<sup>+</sup></a>
+                        </div>
+                  </div>
+      
+                 <!--  <div class="row">
+                        <div class="col-lg-8 txt text-4">
+                              <h1>it is necessary for <br> a design to breathe.</h1>
+                        </div>
+      
+                        <div class="col-lg-4 img five">
+                              <img src="10.jpg" class="ifive" alt="">
+                        </div>
+                  </div> -->
+      
+                  <div class="container-fluid">
+                        <div class="row">
+                              <div class="col-lg-12 img six">
+                                    <!-- <img src="left2.png" class="isix" alt=""> -->
+                                    <img src="tomnew.png" class="isix" alt="">
+
+                              </div>
+                        </div>
+                  </div>
+            </div>
+           
+            
+      
+
+      </div>
+      
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+      <script type="text/javascript">
+
+            var image = document.getElementsByClassName('ione');
+            new simpleParallax(image, {
+                  scale: 1.2,
+                  orientation: 'right'
+            });
+      
+            var image = document.getElementsByClassName('itwo');
+            new simpleParallax(image, {
+                  scale: 1.2, 
+                  /* orientation: 'left' */
+            });
+      
+            var image = document.getElementsByClassName('ithree');
+            new simpleParallax(image, {
+                  scale: 1.6,
+                  orientation: 'right'
+            });
+      
+            var image = document.getElementsByClassName('ifour');
+            new simpleParallax(image, {
+                  scale: 1.4,
+            });
+      
+            var image = document.getElementsByClassName('ifive');
+            new simpleParallax(image, {
+                  scale: 1.6,
+                  orientation: 'right'
+            });
+      
+            var image = document.getElementsByClassName('isix');
+            new simpleParallax(image, {
+                  scale: 1.6,
+                  orientation: 'right'
+            });
+            var image = document.getElementsByClassName('ieigth');
+            new simpleParallax(image, {
+                  scale: 1.6,
+                  delay: 12.1,
+                  orientation: 'left'
+                 
+            });
+      
+            </script>
+            <script>
+                  TweenMax.staggerFrom(".logo", 1, {
+                        opacity: 0,
+                        x: -20,
+                        ease: Power3.easeInOut
+                  }, 0.08)
+
+                  TweenMax.from(".nbhome", 1, {
+                        delay: .5,
+                        opacity: 0,
+                        x: -20,
+                        ease: Expo.easeInOut
+                  })
+
+                  TweenMax.from(".nbMarine", 1, {
+                        delay: .6,
+                        opacity: 0,
+                        x: -20,
+                        ease: Expo.easeInOut
+                  })
+
+                  TweenMax.from(".nbCommercial", 1, {
+                        delay: .7,
+                        opacity: 0,
+                        x: -20,
+                        ease: Expo.easeInOut
+                  })
+
+                  TweenMax.from(".nbSupport", 1, {
+                        delay: .8,
+                        opacity: 0,
+                        x: -20,
+                        ease: Expo.easeInOut
+                  })
+
+            </script>
+
+</body>
+</html>

@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  background-color: #09092d;
+ 
+ /*  background-color: #3b3b3c; */
+
+
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.logo {
+  font-family: 'xenitt';
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  line-height: 12px;
+  margin-top: 5px;
+  /* position: absolute; */
+}
+
+.logo span{
+  color: rgb(24, 77, 99);
+/*   text-align: center;
+ */
+}
+
+.menu-links ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.search,
+.cart {
+  font-size: 20px;
+}
+
+.content {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* z-index: -1; */
+}
+
+.title {
+  font-family: 'xenitt';
+  letter-spacing: 15px;
+  flex: 0 0 100%;
+  font-size: 230px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 50%;
+  color: #fff;
+  z-index: 0;
+}
+
+.tagline {
+  position: absolute;
+  flex: 1;
+  font-size: 26px;
+  color: #999;
+  margin-top: 85px;
+  margin-left: 7%;
+  
+}
+
+.pages {
+  flex: 0;
+  letter-spacing: 5px;
+  color: #999;
+}
+
+.pages span {
+  font-size: 60px;
+  color: #000;
+  font-weight: 600;
+}
+
+.more {
+  flex: 1;
+}
+
+.more a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  background: #000;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.quote{
+  
+  font-size: 22px;
+  color: #fff;
+  line-height : 30px;
+  margin-top: 40px;
+  margin-left: -80px;
+}
+.quote span{
+  color: aqua;
+}
+
+.desc {
+  flex: 0 0 32%;
+}
+
+.desc p:nth-child(1) {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.desc p:nth-child(2) {
+  line-height: 2;
+}
+
+.desc span {
+  color: #AECD31;
+}
+
+.juice {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  z-index: 1;
+}
+
+.juice img {
+  animation: float 4s ease-in-out infinite;
+  max-height: 700px;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(-50%, -46%);
+  }
+  50% {
+    transform: translate(-50%, -54%);
+  }
+  100% {
+    transform: translate(-50%, -46%);
+  }
+}
+
+.leaves {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+}
+
+
+.leaves img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.leaves .layer:nth-child(1) {
+  top: 10px !important;
+  left: -770px !important;
+  z-index: -1;
+}
+
+.leaves .layer:nth-child(2) {
+  /* top: 400px !important; */
+  left: 240px !important;
+  margin-top: 30% !important;
+  z-index: -1;
+}
+.cam4-container {
+  /* top: 400px !important; */
+  left: 900px !important;
+  margin-top: 30% !important;
+  z-index: -1;
+}
+
+.leaves .layer:nth-child(3) {
+  top: 10px !important;
+  left: 190px !important;
+  z-index: -1;
+}
+
+.leaves .layer:nth-child(4) {
+  top: 170% !important;
+  left: -330px !important;
+  z-index: 999;
+  display:inline-block;
+  transform: rotate(270deg);
+  overflow: hidden;
+  -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+.leaves .layer:nth-child(5) {
+  top: 60px !important;
+  left: -510px !important;
+  z-index: -1;
+}
+
+.arrows .prev {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+}
+
+.arrows .next {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+}
+
+.arrows button {
+  border: 1px solid #999;
+  background: transparent;
+  padding: 20px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.arrows button:hover {
+  color: #fff;
+  background: #000;
+}
+
+.top_img{
+  position: absolute;
+  z-index: 2;
+
+}
+
+.bottom_pic{
+  z-index: 1;
+  position: relative;
+}
+
+.buffer{
+  margin-top: 2000px;
+}
+
+section{
+
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+
+}
+
+.text-1{
+  color: #fff;
+  font-family: 'xenitt';
+  margin-top: 50%;
+  font-size: 35px;
+  margin-left: -100%;
+  text-align: center;
+}
+
+.text-2{
+  color: #fff;
+  font-family: 'xenitt';
+  position: absolute;
+  font-size: 35px;
+  margin-top: -50%;
+  margin-left: 52%;
+  /* text-align: center; */
+}
+
+.longcam{
+  position: absolute;
+  right: 31%;
+  top: 70%;
+  z-index: -1;
+}
+
+.dropcam{
+
+margin-top: -60%;
+}
+
+.handphone{
+  margin-top: 130%;
+  /* padding-right: 00px; */
+}
+
+.cam-overlay{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+ /*  background: #000025; */
+  width: 100%;
+  height: 100%;
+}
+
+.locks1{
+  position: absolute;
+  margin-top: 20%;
+  right: 30%;
+  z-index: 2;
+}
+
+.locksphone{
+  position: absolute;
+  z-index: 5;
+  margin-top: 36%;
+  right: 10%;
+}
+.text-3{
+  color: #fff;
+  font-family: 'xenitt';
+  position: absolute;
+  font-size: 35px;
+  margin-top: 35%;
+  margin-left: 10%;
+  /* text-align: center; */
+}
+
+/* .locks-trigger{
+  margin-top: 35%;
+  position: relative;
+} */
+
+.lockwrapper{
+  position: relative;
+  margin-top: 35%;
+  /* height: 100%;
+  width: 200vw; */
+
+}
+
+.blacklock{
+  position: absolute;
+  z-index: 1;
+  background-color: #ababab;
+  width: 200vw;
+  
+}
+
+.silverlock{
+  position: absolute;
+  z-index: 2;
+  background-color: rgb(74, 74, 74);
+  width: 200vw;
+}
+
+.text4-heading{
+  position: absolute;
+  padding-top: 14%;
+  padding-left: 40%;
+  z-index: 3;
+  font-family: 'xenitt', sans-serif;
+  letter-spacing: 1px;
+  line-height: 70px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+.text4-heading2{
+
+  position: absolute;
+  padding-top: 13.6%;
+  padding-left: 39.9%;
+  z-index: 2;
+  font-family: 'xenitt', sans-serif;
+  font-size: 20px;    
+  letter-spacing: 1px;
+  line-height: 70px;
+  font-weight: 600;
+  display: inline-block;
+  opacity: 65%;
+  text-align: center;
+  
+}
+
+.h1{
+  font-size: 50px; 
+
+}
+
+.h2{
+  font-size: 60px; 
+}
+.h3{
+  font-size: 30px; 
+}
+
+.h4{
+  font-size: 30px; 
+  color: #000;
+
+}
+
+.h3 span{
+  
+    color: #ABAEB3;
+  
+}
+.h4 span{
+  color: #ABAEB3;
+  /* opacity: 100%; */
+  font-size: 32px;
+  
+  /* z-index: 2; */
+}
+
+.vid{
+  /* padding-top: 35%; */
+  grid-column: 3/span 12;
+  grid-row: 1/span 3;
+  
+  width: 120%;
+  height: 100%;
+  padding-left: 25%;
+  padding-top: 99%;
+  /* padding-left: 0%; */
+}
+
+
+@font-face {
+  font-family: 'Xenitt';
+  src: url('../fonts/SigmaCondensedOblique-Bold.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
